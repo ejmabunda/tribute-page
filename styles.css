@@ -1,0 +1,50 @@
+html  {
+    box-sizing: border-box;
+  }
+  body  {
+    font-family: Tahoma, sans-serif;
+  }
+  #title  {
+    text-align: center;
+  }
+  #img-div  {
+    width: 70%;
+    margin: auto;
+    min-width: 300px;
+  }
+  #image  {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    width: auto;
+  }
+  #img-caption  {
+    background-color: black;
+    color: white;
+    padding: .4rem;
+  }
+  
+  #tribute-info {
+    width: 50%;
+    min-width: 300px;
+    margin: auto;
+  }
+  #tribute-info ul  {
+    padding-left: 1rem;
+  }
+  #tribute-info ul li {
+    padding: .3rem 0;
+  }
+  
+  footer  {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  footer a  {
+    color: gray;
+  }
+  a:hover {
+    cursor: pointer;
+  }
